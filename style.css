@@ -17,7 +17,7 @@ body{
 .head-container, .logo ul li, .head-text ul li, .section1 ul li{
     list-style: none;
     padding: 10px;
-    color: #5e5b5b;
+    margin: 0 5px;
 }
 .head-container, .logo ul, .head-text ul, .section1 ul{
     display: flex;
@@ -31,6 +31,15 @@ body{
     display: flex;
     align-items: center;
 }
+.head-text ul li:last-child{
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: #008FD5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
 .head-container{
     display: flex;
     justify-content: space-between;
@@ -38,8 +47,9 @@ body{
     
 }
 li:hover{
-    color: #000;
-    background-color: rgb(85, 146, 154);
+    color: #ffffff;
+    background-color: #008FD5;
+    border-radius: 5px;
     /* border-bottom: 5px solid rgb(193, 113, 134); */
 }
 .section1{
@@ -82,7 +92,7 @@ li:hover{
 }
 h2{
     color: #23a1cb;
-    padding-right: 30px;
+    font-size: 21px;
 }
 .part-1 .part-2, .image img{
     width: 400px;
@@ -164,9 +174,10 @@ h2{
     padding-right: 10px;
 }
 .footer-list-1 li{
-    margin-top: 10px;
-    list-style-type: none; 
-    
+    list-style: none;
+    padding: 10px 0px;
+    margin: 0;
+    transition: all 0.5s;
     
 }
 footer{
